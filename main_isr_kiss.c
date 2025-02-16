@@ -1,8 +1,8 @@
 #include "asf.h"
 
-volatile int g_cnt = 0;
-volatile char g_str[10];
-volatile int batata;
+int g_cnt = 0;
+char g_str[10];
+int batata;
 volatile int btn_flag = 0;
 
 // This code creates a progress bar on an OLED screen that
